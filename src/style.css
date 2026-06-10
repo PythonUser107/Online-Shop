@@ -82,7 +82,7 @@ header {
 
 .search-wrapper {
   position: relative;
-  width: clamp(200px, 35vw, 400px);
+  width: clamp(190px, 35vw, 400px);
 }
 
 .search-wrapper img {
@@ -363,7 +363,7 @@ footer div {
   text-align: center;
 }
 
-@media (max-width: 555px) {
+@media (max-width: 540px) {
   header {
     height: auto;
     flex-wrap: wrap;

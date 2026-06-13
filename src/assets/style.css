@@ -134,6 +134,7 @@ header {
 }
 
 main {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -213,6 +214,14 @@ main {
   .main-cards {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+.main-cards #error-get-product {
+  text-align: center;
+  grid-column: 1 / -1;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--red);
 }
 
 .card-item {

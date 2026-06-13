@@ -35,7 +35,7 @@ async function renderCards(): Promise<void> {
 
   } catch (error) {
     console.error("Error :", error)
-    mainCards.innerHTML = `<p>An error occurred !</p>`
+    mainCards.innerHTML = `<p id="error-get-product" >An error occurred !</p>`
   }
 }
 

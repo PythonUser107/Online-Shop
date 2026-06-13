@@ -247,34 +247,32 @@ main {
   object-fit: cover;
 }
 
-.card-item-favorite-btn {
+.card-item-fav-btn {
   position: absolute;
   top: 12px;
   right: 12px;
   width: 35px;
   height: 35px;
-  background-color: var(--white);
-  border: 2px solid var(--red);
   border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.card-item-fav-btn:active {
+    transform: scale(0.9);
+}
+
+.card-item-favorite-btn {
+  background-color: var(--white);
+  border: 2px solid var(--red);
 }
 
 .card-item-unfavorite-btn {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  width: 35px;
-  height: 35px;
   background-color: var(--white);
   border: 2px solid var(--grey2);
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
 }
 
 .card-item-content {
